@@ -22,13 +22,20 @@ h6 {
   font-weight: bold;
 }
 
-p {
-  font-weight: normal;
-}
-
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
 }
 
 .hero {
@@ -47,7 +54,7 @@ h1 {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .btn-branding {
@@ -57,4 +64,30 @@ h1 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 20px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 20px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+  .project-description {
+    text-align: center;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
 }
