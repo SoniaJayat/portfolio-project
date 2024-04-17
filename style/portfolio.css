@@ -38,6 +38,32 @@ p {
   font-weight: 500;
 }
 
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+  font-weight: 500;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .img-fluid-sonia {
   display: block;
   margin: auto;
@@ -47,6 +73,10 @@ p {
   margin: 30px;
   margin-left: 110px;
   margin-right: 110px;
+}
+
+.logo {
+  max-width: 50px;
 }
 
 .hero {
@@ -152,5 +182,9 @@ p {
 
   .about-content {
     text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
