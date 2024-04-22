@@ -32,6 +32,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-size: 16px;
   line-height: 30px;
@@ -70,9 +74,6 @@ nav li.active a {
   border-radius: 15px;
   width: 400px;
   height: 700px;
-  margin: 30px;
-  margin-left: 110px;
-  margin-right: 110px;
 }
 
 .logo {
@@ -143,10 +144,58 @@ nav li.active a {
   padding: 15px 20px;
 }
 
+.btn-branding-outline:hover {
+  color: white;
+  background: var(--branding-color);
+  border-radius: 4px;
+}
+
 .btn-branding:hover {
   background-color: white;
   border: 1px solid var(--branding-color);
   color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--fill-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .contact-box .btn-branding {
+  margin-top: 12px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--fill-color);
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background: var(--branding-color);
+  color: white;
 }
 
 @media (max-width: 900px) {
@@ -185,6 +234,24 @@ nav li.active a {
   }
 
   nav a {
+    font-size: 14px;
+  }
+
+  footer .contact-box {
+    padding: 30px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  footer .contact-box .btn-branding {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  footer .contact-box p {
     font-size: 14px;
   }
 }
