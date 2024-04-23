@@ -100,7 +100,7 @@ nav li.active a {
 }
 
 .content-container {
-  padding: 95px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -202,6 +202,7 @@ footer .social-links a:hover {
   h1 {
     font-size: 44px;
     line-height: 56px;
+    text-align: center;
   }
 
   h2 {
@@ -222,7 +223,10 @@ footer .social-links a:hover {
 
   .img-fluid-sonia {
     display: block;
-    margin: auto;
+
+    border-radius: 15px;
+    width: 300px;
+    height: 600px;
   }
 
   .action-button {
@@ -231,10 +235,19 @@ footer .social-links a:hover {
 
   .about-content {
     text-align: center;
+    margin: 30px 0;
   }
 
+  .about-content h1 {
+    font-size: 58px;
+    line-height: 80px;
+  }
+
+  .content h1 {
+    font-size: 64px;
+  }
   nav a {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   footer .contact-box {

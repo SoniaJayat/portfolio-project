@@ -15,6 +15,10 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/07b9006efd.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,25 +27,32 @@
     />
     <link rel="stylesheet" href="style/portfolio.css" />
     <title>About Me - Sonia Jayatheesan</title>
+    <meta
+      name="description"
+      content="Sonia is a front-end developer based in London with a year of hands on experience in JavaScript, gained through the SheCodes Front-End Course. 
+      Her proficiency shines through in her ability to craft clean and efficient code, bringing creativity and functionality to the forefront of every project she undertakes.  "
+    />
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/ssj.png" class="logo" />
+        <a href="/" title="Homepage">
+          <img src="images/ssj.png" class="logo" alt="Sonia Logo" />
         </a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li class="active"><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Sonia">About</a>
+          </li>
+          <li><a href="/work.html" title="Sonia's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Sonia">Contact</a></li>
         </ul>
       </nav>
     </div>
-    <div class="content-container container">
+    <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <div class="content">
+          <div class="content-container container">
             <div class="about-content">
               <h1 class="mb-4">Sonia Jayatheesan</h1>
               <h2 class="mb-4">Frontend Developer, based in the UK</h2>
@@ -49,12 +60,15 @@
                 I am actively seeking new job opportunities in front-end
                 development where I can leverage my skills in an exciting role.
                 Whether it's remote, in-office, or a hybrid setup, I'm flexible
-                and eager to contribute. With a solid year of experience in
+                and eager to contribute. With a solid 1 year of experience in
                 JavaScript, I excel at attention to detail and possess advanced
                 proficiency in utilising its capabilities.
               </p>
             </div>
-            <a href="/work.html" class="btn btn-branding action-button"
+            <a
+              href="/work.html"
+              class="btn btn-branding action-button"
+              title="view projects"
               >View projects</a
             >
           </div>
@@ -65,5 +79,57 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box d-flex flex-row justify-content-between mb-5">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a href="/contact.html" class="btn btn-branding" title="Contact Sonia"
+            >Contact me</a
+          >
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:soniajayat03@gmail.com"
+          class="email-link"
+          title="Email Sonia"
+          >soniajayat03@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/SoniaJayat"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/soniajayat6/"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/sonia-jayatheesan-9b928b268/?originalSubdomain=uk"
+          target="_blank"
+          title="LinkedIn"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5 sonia-tag">
+        🙋🏽‍♀️ This website was coded by Sonia Jayatheesan and is
+        <a
+          href="https://github.com/SoniaJayat/portfolio-project"
+          target="_blank"
+          >open sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
